@@ -22,6 +22,10 @@ To write a python program to implement multivariate linear regression and predic
 
 ## Program:
 ```python
+Program for Univariate linear regression using the least squares method.
+Developed by: your name DHARSHAN V
+RegisterNumber: 22003103
+
 import pandas as pd
 from sklearn import linear_model
 
