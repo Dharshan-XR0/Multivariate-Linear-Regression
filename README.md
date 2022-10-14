@@ -25,8 +25,8 @@ Print the predicted output.
 
 ## Program:
 ```python
-Program for Univariate linear regression using the least squares method.
-Developed by: your name DHARSHAN V
+To write a python program to implement multivariate linear regression.
+Developed by: DHARSHAN V
 RegisterNumber: 22003103
 
 import pandas as pd
