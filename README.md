@@ -31,31 +31,18 @@ RegisterNumber: 22003103
 
 import pandas as pd
 from sklearn import linear_model
-
 data=pd.read_csv("cars.csv")
-
 x=data[['Weight','Volume']]
 y=data['CO2']
-
-
 regr=linear_model.LinearRegression()
 regr.fit(x,y)
-
 print('coefficients: ',regr.coef_)
 print('Intercet: ',regr.intercept_)
-
 predictCO2=regr.predict([[3300,1300]])
 print('Predicted CO2 for the corresponding Weight and Volume',predictCO2)
-
-
-
 ```
 ## Output:
 ![output](/LinearRegression.png)
-
-### Insert your output
-
-<br>
 
 ## Result
 Thus the multivariate linear regression is implemented and predicted the output using python program.
